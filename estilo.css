@@ -1,0 +1,91 @@
+
+
+
+
+
+.centrado{
+    display: flex;
+  justify-content: center;
+}
+nav{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background: #00AFFE;
+    position:fixed;
+    top:0;
+    width:100%;
+    color: white;
+    transition-duration: 0.5s;
+    font-size: 19px;
+    font-family: Poppins;
+ }
+ nav .logo{
+    font-size: 12px;
+    font-weight:black;
+ }
+ nav .barnav{
+    display:grid;
+    grid-template-columns: repeat(6,auto);
+    margin-right: 30px;
+ }
+ nav .barnav div{
+    padding: 10px 20px;
+    transition-duration: 0.5s;
+ }
+ nav .barnav div:hover{
+    cursor: pointer;
+    color:rgb(0, 13, 72);
+    transition-duration: 0.5s;
+    font-size: 23px;
+ }
+
+
+
+.contenido{
+    margin-top: 100px;
+ }
+
+ .presentacion{
+    font-family: Poppins;
+ }
+
+h2{
+    font-family: Arial;
+    font-size: 45px;
+}
+article{
+    width: 60%;
+    float: left;
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+ button{
+    font-family: Poppins;
+    font-size: 40px;
+    background-color: #00aeff;
+    color: white;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    border: 0px solid #00AFFE;
+    float: right;
+ }
+ button:hover{
+    font-size: 41px;
+    transition-duration: 0.5s;
+    color:rgb(0, 13, 72);
+    border: 5px solid #00AFFE;
+ }
+
+ .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
