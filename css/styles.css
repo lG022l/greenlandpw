@@ -92,7 +92,7 @@ nav a:hover {
     /* Define un ancho máximo para el encabezado */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     /* Agrega una sombra alrededor del encabezado */
-    height: 70vh;
+    height: 55rem;
     /* Altura del 100% del viewport height */
 }
 
