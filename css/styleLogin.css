@@ -1,3 +1,15 @@
+:root {
+    --azul: #00AFFE;
+    --azulcontenedor: rgb(0, 132, 193);
+    --blanco: #FFF;
+    --negro: #000;
+    --primarioOscuro: #309292;
+    --FuentePrimaria: 'Poppins', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+
+
 body{
     margin: 0;
     padding: 0;
