@@ -124,6 +124,12 @@ nav{
      }
  }
  
+ a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-family: var(--FuentePrimaria);
+ }
+
  nav a:hover {
     cursor: pointer;
     color:black;
