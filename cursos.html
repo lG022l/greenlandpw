@@ -27,64 +27,7 @@
             </form>
     </nav>
 
-    <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = null;
-    $dbname = "greenland";
-  
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-  
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
-    echo "Connected successfully";
-  
-    echo "<br>";
-  
-  
-  
-    $sql1 = "SELECT id, nombre, descripcion, profesor FROM cursos";
-    $result = $conn->query($sql1);
-  
-  
-  
-    if ($result->num_rows > 0) {
-      // output data of each row
-  
-      echo "
-        <table>
-        <tr>
-        <th>ID</th>
-        <th>Nombre</th>
-        <th>Descripcion</th>
-        <th>Profesor</th>
-        </tr>
-        
-        ";
-  
-      while ($row = $result->fetch_assoc()) {
-        echo "
-        <tr>
-        <td>" . $row["id"] . "</td>
-        <td>" . $row["nombre"] . "</td>
-        <td>" . $row["descripcion"] . "</td>
-        <td>" . $row["profesor"] . "</td>
-        </tr>
-        ";
-      }
-  
-  
-  
-      echo "</table>";
-    } else {
-      echo "0 results";
-    }
-  
-    $conn->close();
-    ?>
+   
 
 
 </body>
