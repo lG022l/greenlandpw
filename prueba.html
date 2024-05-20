@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mostrar Datos</title>
+    <script>
+        function loadUserData() {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    document.getElementById("userName").innerText = xhr.responseText;
+                }
+            };
+            xhr.open("GET", "datos.php", true);
+            xhr.send();
+        }
+
+        window.onload = loadUserData;
+    </script>
+</head>
+<body>
+    <h1>Datos del Usuario</h1>
+    <p>Nombre: <span id="userName">Cargando...</span></p>
+</body>
+</html>
