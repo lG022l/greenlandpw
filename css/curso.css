@@ -85,6 +85,9 @@
   --FuentePrimaria: 'Poppins', cursive;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *,
 *::before,
 *::after {
@@ -112,6 +115,13 @@ nav{
     font-family: Arial;
     
  }
+ @media (min-width: 768px) {
+    nav {
+       flex-direction: row;
+       justify-content: space-around;
+       gap: 2rem;
+    }
+}
 
 .header__logo {
     width: 130px;
