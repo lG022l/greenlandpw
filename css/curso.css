@@ -123,6 +123,14 @@ nav{
     }
 }
 
+nav a:hover {
+    cursor: pointer;
+    color:black;
+    transition-duration: 0.5s;
+    font-size: 23px;
+ }
+
+
 .header__logo {
     width: 130px;
 }
