@@ -1178,3 +1178,39 @@ header.masthead {
       font-size: 1.875rem;
     }
   }
+
+  .section-heading {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 3.75rem;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  blockquote {
+    margin: 0 0 1rem;
+  }
+
+  .blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
+  .blockquote > :last-child {
+    margin-bottom: 0;
+  }
+  
+  .blockquote-footer {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875em;
+    color: #6c757d;
+  }
+  .blockquote-footer::before {
+    content: "— ";
+  }
+  blockquote {
+    font-style: italic;
+    color: #6c757d;
+  }
