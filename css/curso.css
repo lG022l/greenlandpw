@@ -171,6 +171,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+    font-family: var(--FuentePrimaria);
 }
 
 abbr[title] {
@@ -250,9 +251,11 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
-  text-decoration: none;
-}
+    color: var(--blanco);
+    text-decoration: none;
+    font-family: var(--FuentePrimaria);
+ }
+ 
 a:hover {
   color: var(--bs-link-hover-color);
 }
@@ -3606,6 +3609,14 @@ nav{
  header {
     display: flex;
     justify-content: center;
+        --opacidad-negro: 0.1;
+        background-image:linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(../img/fondo2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        max-width: 100%; /* Define un ancho máximo para el encabezado */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra alrededor del encabezado */
+        height: 100vh; /* Altura del 100% del viewport height */
  }
 
  @media (min-width: 768px) {
