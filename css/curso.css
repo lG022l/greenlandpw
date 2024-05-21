@@ -134,7 +134,7 @@ header {
 }
 
 a {
-  color: var(--blanco);
+  color: white;
   text-decoration: none;
   font-family: var(--FuentePrimaria);
 }
