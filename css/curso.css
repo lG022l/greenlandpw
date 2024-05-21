@@ -100,10 +100,6 @@
   }
 }
 
-html {
-    font-size: 62.5%; 
-    box-sizing: border-box; 
-}
 
 nav{
     background-color: var(--azul); 
@@ -121,11 +117,6 @@ nav{
     
  }
 
- a {
-    color: var(--blanco);
-    text-decoration: none;
-    font-family: var(--FuentePrimaria);
- }
 
  @media (min-width: 768px) {
     nav {
