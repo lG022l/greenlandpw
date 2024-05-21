@@ -97,6 +97,19 @@
   }
 }
 
+.header__logo {
+    width: 130px;
+}
+
+.header__logo--mod {
+    width: 330px;
+}
+
+.logo {
+    font-size: 12px;
+    font-weight:black;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
