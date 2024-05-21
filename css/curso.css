@@ -3586,6 +3586,7 @@ textarea.form-control-lg {
     text-align: center;
 
 }
+
 nav{
     background-color: var(--azul); 
     align-items: center;
@@ -3602,20 +3603,25 @@ nav{
     
  }
 
- @media (min-width: 768px) {
-    nav {
-       flex-direction: row;
-       justify-content: space-around;
-       gap: 2rem;
-    }
-}
+ header {
+    display: flex;
+    justify-content: center;
+ }
 
-nav a:hover {
-   cursor: pointer;
-   color:black;
-   transition-duration: 0.5s;
-   font-size: 23px;
-}
+ @media (min-width: 768px) {
+     nav {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 2rem;
+     }
+ }
+ 
+ nav a:hover {
+    cursor: pointer;
+    color:black;
+    transition-duration: 0.5s;
+    font-size: 23px;
+ }
 
 
 
@@ -3718,10 +3724,7 @@ nav a:hover {
   margin-left: calc(-0.5 * var(--bs-card-cap-padding-x));
   border-bottom: 0;
 }
-.card-header-tabs .nav-link.active {
-  background-color: var(--bs-card-bg);
-  border-bottom-color: var(--bs-card-bg);
-}
+
 
 .card-header-pills {
   margin-right: calc(-0.5 * var(--bs-card-cap-padding-x));
