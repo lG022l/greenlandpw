@@ -100,6 +100,11 @@
   }
 }
 
+html {
+    font-size: 62.5%; 
+    box-sizing: border-box; 
+}
+
 nav{
     background-color: var(--azul); 
     align-items: center;
@@ -121,7 +126,7 @@ nav{
     text-decoration: none;
     font-family: var(--FuentePrimaria);
  }
- 
+
  @media (min-width: 768px) {
     nav {
        flex-direction: row;
