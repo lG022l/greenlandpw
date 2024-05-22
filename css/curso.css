@@ -224,7 +224,7 @@ body {
   font-size: 1.6rem;
     margin: 0;
     padding: 0;
-    background-color: #046d8b;
+    background-color: rgb(26, 26, 26);
 }
 
 hr {
@@ -715,7 +715,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #ff0000;
+  color: #6c757d;
 }
 .blockquote-footer::before {
   content: "— ";
