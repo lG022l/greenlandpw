@@ -108,9 +108,7 @@
   height: 7rem;
   
 }
-.link{
-Color: #000
-}
+
 @media (max-width: 500px) {
   .contenido__letra {
       font-size: 3.5rem; /* Reducir el tamaño de la fuente para dispositivos más pequeños */
