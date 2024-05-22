@@ -87,6 +87,3 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.getElementById('crs').addEventListener('click', function() {
-  window.location.href = '../indexCurso.html';
-});
