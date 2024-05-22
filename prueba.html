@@ -12,7 +12,7 @@
                     document.getElementById("userName").innerText = xhr.responseText;
                 }
             };
-            xhr.open("GET", "http://localhost/greenlandpw-main/config.php?id=" + encodeURIComponent(userId), true);
+            xhr.open("GET", "localhost/greenlandpw-main/config.php?id=" + encodeURIComponent(userId), true);
             xhr.send();
         }
     </script>
