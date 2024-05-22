@@ -104,6 +104,16 @@
 /* -- */ /*holiwis*/
 
 
+.contenedorcursos {
+  background-color: rgb(0, 132, 193);
+  padding: 4rem 2rem; /* Utiliza rem para el relleno */
+  max-width: 95%; /* Utiliza un porcentaje para el ancho máximo */
+  margin-top: 3rem;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+  box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto del elemento */
+}
+
 .footer {
   background-color: var(--azul);
   padding: 1rem 0;
