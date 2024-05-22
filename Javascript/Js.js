@@ -89,6 +89,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('myDiv').addEventListener('click', function() {
-      window.location.href = 'www.google.com';
+      window.location.href = 'indexCurso.html';
   });
 });
