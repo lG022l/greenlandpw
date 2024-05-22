@@ -3,22 +3,27 @@
 <head>
     <title>Mostrar Datos</title>
     <script>
-        function loadUserData() {
+        function loadUserData(event) {
+            event.preventDefault();
+            var userId = document.getElementById("userId").value;
             var xhr = new XMLHttpRequest();
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     document.getElementById("userName").innerText = xhr.responseText;
                 }
             };
-            xhr.open("GET", "datos.php", true);
+            xhr.open("GET", "config.php?id=" + encodeURIComponent(userId), true);
             xhr.send();
         }
-
-        window.onload = loadUserData;
     </script>
 </head>
 <body>
     <h1>Datos del Usuario</h1>
+    <form onsubmit="loadUserData(event)">
+        <label for="userId">Ingrese ID del Usuario:</label>
+        <input type="text" id="userId" name="userId" required>
+        <button type="submit">Mostrar Datos</button>
+    </form>
     <p>Nombre: <span id="userName">Cargando...</span></p>
 </body>
 </html>
